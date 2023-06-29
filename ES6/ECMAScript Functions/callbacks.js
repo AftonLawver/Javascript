@@ -8,3 +8,6 @@ function total(sum) {
 }
 
 add(5,4, total)
+
+
+console.log("Added one line of code");
