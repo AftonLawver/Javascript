@@ -1,5 +1,5 @@
 for (let letter of "JavaScript") {
-    console.log(letter);
+  console.log(letter);
 }
 
 let topics = new Map();
@@ -11,5 +11,5 @@ topics.set("JS", "/topics/JS");
 // Can use topics.keys() to get just the keys
 // Can use topics.values() to get just the values.
 for (let topic of topics.entries()) {
-    console.log(topic);
+  console.log(topic);
 }

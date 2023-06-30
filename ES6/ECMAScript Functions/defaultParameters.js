@@ -3,14 +3,14 @@
 // the default value.
 
 function add(x=5,y=6) {
-    return x+y;
+  return x+y;
 }
 
 console.log(add());
 console.log(add(3,4));
 
 function haveFun(activity="biking", numOfHours=2) {
-    return `I will go ${activity} for ${numOfHours} hours`;
+  return `I will go ${activity} for ${numOfHours} hours`;
 }
 
 console.log(haveFun());

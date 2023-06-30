@@ -1,14 +1,14 @@
 const {title, price} = {
-    title: "Reuben",
-    price: 7,
-    description: "A classic",
-    ingredients: [
-        "bread",
-        "corned beef",
-        "dressing",
-        "sauerkraut",
-        "cheese"
-    ]
+  title: "Reuben",
+  price: 7,
+  description: "A classic",
+  ingredients: [
+    "bread",
+    "corned beef",
+    "dressing",
+    "sauerkraut",
+    "cheese"
+  ]
 };
 
 // without destructuring I can use basic dot notation
@@ -22,16 +22,16 @@ console.log(title);
 
 // Create an object called vacation with a few properties
 const vacation = {
-    destination: "Chile",
-    activity: "skiing",
-    travelers: 2,
-    price: "too much"
+  destination: "Chile",
+  activity: "skiing",
+  travelers: 2,
+  price: "too much"
 };
 // We only want to use a few of the more desirable properties for
 // our marketing campaign. We use destructuring within our
 // function call (parameters).
 function marketing({destination, activity}) {
-    return (`Come to ${destination} to go ${activity}`);
+  return (`Come to ${destination} to go ${activity}`);
 }
 
 // We pass in the whole object and when the object is passed into the
