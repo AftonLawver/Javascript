@@ -12,3 +12,4 @@ console.log(mySymbol2 === mySymbol3);
 
 // you can see the same here.. no two symbols are the same
 console.log(Symbol() === Symbol());
+console.log("This was made in test_branch2");
