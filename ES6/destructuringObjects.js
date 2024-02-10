@@ -38,3 +38,14 @@ function marketing({destination, activity}) {
 // function, it is destructured to get only the properties that we
 // specified in the function.
 console.log(marketing(vacation));
+
+
+const jsonObj = {
+  first: "afton",
+  last: "lawver",
+  job: "programmer",
+}
+
+const {first, last} = jsonObj;
+
+console.log(first);
